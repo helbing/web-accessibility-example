@@ -1,0 +1,20 @@
+{
+  "name": "web-accessibility-example",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "serve": "http-server",
+    "lint": "eslint .",
+    "lintfix": "eslint --fix ."
+  },
+  "keywords": [],
+  "author": "helbing",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "http-server": "^14.1.1",
+    "prettier": "^2.8.3"
+  }
+}

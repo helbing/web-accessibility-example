@@ -21,14 +21,14 @@ Before you learnning WCAG, you have to try Accessibilty software, such as:
 
 HTML standard components have good support for Web Accessibilty, but when we develop custom component, how make it support Web Accessibilty. That why we need [ARIA](https://www.w3.org/WAI/standards-guidelines/aria/). ARIA is an HTML extension that provides a set of HTML attributes to help user can use the screen reader correctly. W3C provides a tutorial: [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/) that contains some examples, such as:
 
-- Accordion (Sections With Show/Hide Functionality)
-- Alert
-- Alert and Message Dialogs
-- Breadcrumb
-- Button
-- Carousel (Slide Show or Image Rotator)
-- Checkbox
-- Combobox
+- [Accordion](./aria/accordion/)
+- [Alert](./aria/alert/)
+- [Alert and Message Dialogs](./aria/alertdialog/)
+- [Breadcrumb](./aria/breadcrumb/)
+- [Button](./aria/button/)
+- [Carousel](./aria/carousel/)
+- [Checkbox](./aria//checkbox/)
+- [Combobox](./aria/combobox/)
 - Dialog (Modal)
 - Disclosure (Show/Hide)
 - Feed

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combobox</title>
+    <link rel="stylesheet" href="./grid-combo.css">
+</head>
+
+<body>
+    <main>
+        <label for="ex1-input" id="ex1-label" class="combobox-label">
+            Fruits and vegetables
+        </label>
+        <div class="combobox-wrapper">
+            <div id="ex1-combobox">
+                <input type="text" role="combobox" aria-haspopup="grid" aria-expanded="false" aria-autocomplete="list"
+                    aria-controls="ex1-grid" id="ex1-input">
+            </div>
+            <div aria-labelledby="ex1-label" role="grid" id="ex1-grid" class="grid hidden">
+            </div>
+        </div>
+    </main>
+
+    <script src="./grid-combo.js"></script>
+</body>
+
+</html>
