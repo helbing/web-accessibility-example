@@ -51,3 +51,7 @@ HTML standard components have good support for Web Accessibilty, but when we dev
 - [Tree View](./aria/treeview/)
 - [Treegrid](./aria/treegrid/)
 - Window Splitter
+
+## The end
+
+[No ARIA is better than Bad ARIA](https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/). Some people want to help people with disabilities, also I, but after learning WCAG, I realize that making our website accessible is not an easy thing. This means that we need to constantly learn about web accessibility and always remember that No ARIA is better than Bad ARIA.
