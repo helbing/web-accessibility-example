@@ -29,25 +29,25 @@ HTML standard components have good support for Web Accessibilty, but when we dev
 - [Carousel](./aria/carousel/)
 - [Checkbox](./aria//checkbox/)
 - [Combobox](./aria/combobox/)
-- Dialog (Modal)
-- Disclosure (Show/Hide)
+- [Dialog](./aria/dialog/)
+- [Disclosure](./aria/disclosure/)
 - Feed
-- Grids : Interactive Tabular Data and Layout Containers
+- Grids
 - Landmarks
-- Link
-- Listbox
-- Menu or Menu bar
-- Menu Button
-- Meter
-- Radio Group
-- Slider
+- [Link](./aria/link/)
+- [Listbox](./aria/listbox/)
+- [Menu or Menu bar](./aria/menubar/)
+- [Menu Button](./aria/menubutton/)
+- [Meter](./aria/meter/)
+- [Radio Group](./aria/radio/)
+- [Slider](./aria/slider/)
 - Slider (Multi-Thumb)
-- Spinbutton
-- Switch
+- [Spinbutton](./aria/spinbutton/)
+- [Switch](./aria/switch/)
 - Table
-- Tabs
-- Toolbar
+- [Tabs](./aria/tabs/)
+- [Toolbar](./aria/toolbar/)
 - Tooltip Widget
-- Tree View
-- Treegrid
+- [Tree View](./aria/treeview/)
+- [Treegrid](./aria/treegrid/)
 - Window Splitter

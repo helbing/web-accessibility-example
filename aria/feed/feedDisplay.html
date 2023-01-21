@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed</title>
+    <link rel="stylesheet" href="./feedDisplay.css">
+</head>
+
+<body>
+    <main>
+        <h1>Recommended Restaurants</h1>
+        <section>
+            <h2>About This Example</h2>
+            <p>
+                <strong>NOTE:</strong> The feed role is a new WAI-ARIA feature, introduced by WAI-ARIA 1.1.
+                This page provides a proposed implementation of a feed component.
+                This proposal does not yet have ARIA Practices Task Force consensus.
+                Feedback is welcome in <a href="https://github.com/w3c/aria-practices/issues/565">issue 565.</a>
+            </p>
+        </section>
+        <section id="main-content">
+            <div id="restaurant-feed" role="feed"></div>
+        </section>
+        <section id="side-panel">
+            <label for="delay-time-select">Select article loading delay</label>
+            <select id="delay-time-select" name="delay_time">
+                <option value="200">200 ms</option>
+                <option value="400">400 ms</option>
+            </select>
+        </section>
+    </main>
+
+    <script src="./feedDisplay.js"></script>
+</body>
+
+</html>

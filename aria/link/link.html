@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+    <link rel="stylesheet" href="./link.css">
+</head>
+
+<body>
+    <main>
+        <span tabindex="0" role="link" onclick="goToLink(event, 'https://www.w3.org/')"
+            onkeydown="goToLink(event, 'https://www.w3.org/')">
+            W3C website
+        </span>
+    </main>
+
+    <script>
+        /*
+         *   This content is licensed according to the W3C Software License at
+         *   https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document
+         */
+
+        /* exported goToLink */
+
+        'use strict';
+
+        function goToLink(event, url) {
+            var type = event.type;
+
+            if (type === 'click' || (type === 'keydown' && event.keyCode === 13)) {
+                window.location.href = url;
+
+                event.preventDefault();
+                event.stopPropagation();
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Button</title>
+    <link rel="stylesheet" href="./menu-button-actions.css">
+</head>
+
+<body>
+    <main>
+        <div class="menu-button-actions">
+            <button type="button" id="menubutton1" aria-haspopup="true" aria-controls="menu1">
+                Actions
+                <svg xmlns="http://www.w3.org/2000/svg" class="down" width="12" height="9" viewBox="0 0 12 9">
+                    <polygon points="1 0, 11 0, 6 8"></polygon>
+                </svg>
+            </button>
+
+            <ul id="menu1" role="menu" aria-labelledby="menubutton1">
+                <li role="menuitem">Action 1</li>
+                <li role="menuitem">Action 2</li>
+                <li role="menuitem">Action 3</li>
+                <li role="menuitem">Action 4</li>
+            </ul>
+        </div>
+        <p>
+            <label>Last Action: <input class="action" id="action_output" type="text" value=""></label>
+        </p>
+    </main>
+
+    <script src="./menu-button-actions.js"></script>
+</body>
+
+</html>
