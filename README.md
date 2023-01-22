@@ -12,10 +12,16 @@ Before you learnning WCAG, you have to try Accessibilty software, such as:
 
 ## Catalog
 
-### WACG
+### Axe Checker
 
-- [Add Alt description for every images](./wcag/add-alt-description-for-every-images.html).
-- 
+WACG has so many rules, we don't need to learn rule by rule, we can learn and fix them when axe-checker report errors.
+
+- [Axe Rules and Remediation Advice](https://dequeuniversity.com/rules/axe/)
+- If you're a developer, you can use:
+  - [dequelabs/axe-core](https://github.com/dequelabs/axe-core)
+  - ESlint: [eslint-plugin-jsx-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
+  - React developer: [@axe-core/react](https://www.npmjs.com/package/@axe-core/react)
+  - Vuejs developer: [vue-axe@next](https://github.com/vue-a11y/vue-axe-next)
 
 ## ARIA
 
